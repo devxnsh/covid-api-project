@@ -1,6 +1,7 @@
 # covid-api-project
 Shows data about Availability of Covid Vaccines in your District. 
 Python Based.
+Requirements : Python (3.0 or above) terminal, Libraries : csv, mysql.connector. MySQL. (Default UID & PW are ROOT)
 Run control_panel.py. Enter district Code, date, age and whether you've been vaccinated before.
 Scope of improvement:
 1. Time Efficiency
