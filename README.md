@@ -23,7 +23,7 @@ Feel free to contribute in issues regarding:
 2. Parsing of output object
 3. Merger of Data_head and Session_Detail
 4. Running it in a continuous of 5 second interval 
-5. Sending mail/message when slot available.
+5. Sending mail/message/popup when slot available.
 6. Frontend using tkinter(Under Progress)
 7. Any other fatal issue
 
