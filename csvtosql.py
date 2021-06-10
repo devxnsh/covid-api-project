@@ -1,10 +1,10 @@
 import mysql.connector as sql
 import csv
-from create_sql_table import username,pwd
+from create_sql_table import UserName, UserPassword
 hostname="localhost"
 
 dbName="covid"
-conn = sql.connect(host=hostname, password=pwd, user=username, database=dbName)
+conn = sql.connect(host=hostname, password=UserPassword, user=UserName, database=dbName)
 cursor = conn.cursor()
 
 cursor.execute('set global max_allowed_packet=67108864;')
@@ -40,8 +40,5 @@ if __name__=="__main__":
         
         databaseName = input("What is the name of database you want to write this data in?")
         tabledata = input("What is the name of table you want to write this data in?")
-        print("Working on it...")
+
         convert(loc, tabledata,databaseName)
-        print("Successful!")
-        
-    
